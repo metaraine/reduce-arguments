@@ -1,6 +1,6 @@
 {
   "name": "reduce-arguments",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Convert a function that takes two arguments into one that reduces all of its arguments.",
   "license": "ISC",
   "repository": "metaraine/reduce-arguments",
