@@ -15,6 +15,8 @@ $ npm install --save reduce-arguments
 ## Usage
 
 ```js
+var reduceArguments = require('reduce-arguments')
+
 var addTwo = (x,y) -> x+y
 var add = reduceArguments(addTwo)
 assert.equal(add(1,2,3,4,5), 15)
