@@ -1,0 +1,36 @@
+{
+  "name": "reduce-arguments",
+  "version": "0.0.0",
+  "description": "Convert a function that takes two arguments into one that reduces all of its arguments.",
+  "license": "ISC",
+  "repository": "metaraine/reduce-arguments",
+  "author": {
+    "name": "Raine Lourie",
+    "email": "raine@collegecoding.com",
+    "url": "https://github.com/metaraine"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha --compilers coffee:coffee-script/register",
+    "browser": "browserify -s $npm_package_name -o browser.js ."
+  },
+  "keywords": [
+    "reduce",
+    "arguments"
+  ],
+  "devDependencies": {
+    "browserify": "~8.1.1",
+    "coffee-script": "~1.8.0",
+    "del": "~1.2.0",
+    "gulp": "~3.8.10",
+    "gulp-coffee": "~2.2.0",
+    "gulp-jshint": "~1.9.0",
+    "gulp-plumber": "~1.0.1",
+    "gulp-util": "~3.0.2",
+    "chai": "~1.10.0",
+    "mocha": "~2.1.0",
+    "run-sequence": "~1.0.2"
+  }
+}
